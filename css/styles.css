@@ -186,7 +186,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 40px; }
+/*.inner { padding-top: 4%; }*/
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -220,12 +220,12 @@ background: #353a42;
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
 	background-size: cover; 
-	padding: 0px 0 60px 0;
+	padding: 0px 0 5% 0;
 	height: auto; }
 .hero h1 { font-size: 400px;
 	font-weight: 800; 
 	letter-spacing: 0px; 
-	margin-top: 40px;
+	margin-top: 5%;
 	margin-bottom: 1px;
 }
 @media screen and (max-width: 550px) {.hero h1 {font-size: 100px;} }
